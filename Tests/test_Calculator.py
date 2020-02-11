@@ -36,8 +36,8 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(3, self.calculator.Result)
 
     def test_calculator_access_log_result(self):
-        self.calculator.Log(10)
-        self.assertEqual(1, self.calculator.Result)
+        self.calculator.Log(2, 8)
+        self.assertEqual(3, self.calculator.Result)
 
     def test_multiple_calculators(self):
         calculator1 = Calculator()

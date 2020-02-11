@@ -1,5 +1,4 @@
 import unittest
-import math
 
 from MathOperations.addition import Addition
 from MathOperations.subtraction import Subtraction
@@ -7,6 +6,7 @@ from MathOperations.multiplication import Multiplication
 from MathOperations.division import Division
 from MathOperations.exponentiation import Exponentiation
 from MathOperations.root import Root
+from MathOperations.log import Log
 
 class MyTestCase(unittest.TestCase):
 
@@ -29,7 +29,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(3, Root.root(9, 2))
 
     def test_MathOperations_Log(self):
-        self.assertEqual(1, Log.log(10))
+        self.assertEqual(3, Log.logarithm(2,8))
 
     def test_MathOperations_sum_list(self):
         valuelist = [1, 2, 3]

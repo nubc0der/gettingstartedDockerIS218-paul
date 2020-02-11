@@ -1,5 +1,6 @@
+import math
 class Log:
 
     @staticmethod
-    def math.log(48):
-        return log(48)
+    def logarithm(base, antilogarithm):
+        return math.log(antilogarithm, base)
